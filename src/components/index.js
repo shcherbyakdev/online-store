@@ -7,6 +7,8 @@ import SignIn from "./sign-in/sign-in.component";
 import SignUp from "./sign-up/sign-up.component";
 import FormInput from "./form-input/form-input.component";
 import CustomButton from "./custom-button/custom-button.component";
+import CardIcon from "./card-icon/card-icon.component";
+import CardDropDown from "./card-dropdown/card-dropdown.component";
 
 export {
   MenuItem,
@@ -17,5 +19,7 @@ export {
   SignIn,
   FormInput,
   CustomButton,
-  SignUp
+  SignUp,
+  CardDropDown,
+  CardIcon
 };
