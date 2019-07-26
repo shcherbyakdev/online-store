@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
-import { CardIcon, CardDropDown } from "../../components";
+import { CartIcon, CartDropDown } from "../../components";
 
 import { auth } from "../../firebase/firebase.utils";
 
@@ -30,9 +30,9 @@ const Header = ({ currentUser, hidden }) => {
             SIGN IN
           </Link>
         )}
-        <CardIcon />
+        <CartIcon />
       </div>
-      {hidden ? null : <CardDropDown />}
+      {hidden ? null : <CartDropDown />}
     </div>
   );
 };
