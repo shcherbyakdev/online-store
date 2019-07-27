@@ -10,6 +10,7 @@ import CustomButton from "./custom-button/custom-button.component";
 import CartIcon from "./cart-icon/cart-icon.component";
 import CartDropDown from "./cart-dropdown/cart-dropdown.component";
 import CartItem from "./cart-item/cart-item.component";
+import CheckoutItem from "./checkout-item/checkout-item";
 
 export {
   MenuItem,
@@ -23,5 +24,6 @@ export {
   SignUp,
   CartDropDown,
   CartIcon,
-  CartItem
+  CartItem,
+  CheckoutItem
 };
