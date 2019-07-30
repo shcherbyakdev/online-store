@@ -12,6 +12,7 @@ import CartDropDown from "./cart-dropdown/cart-dropdown.component";
 import CartItem from "./cart-item/cart-item.component";
 import CheckoutItem from "./checkout-item/checkout-item.component";
 import CollectionsOverview from "./collections-overview/collections-overview.component";
+import StripeButton from "./stripe-button/stripe-button.component";
 
 export {
   MenuItem,
@@ -27,5 +28,6 @@ export {
   CartIcon,
   CartItem,
   CheckoutItem,
-  CollectionsOverview
+  CollectionsOverview,
+  StripeButton
 };
